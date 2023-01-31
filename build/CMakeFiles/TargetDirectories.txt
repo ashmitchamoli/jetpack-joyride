@@ -1,0 +1,9 @@
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/app.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/glad.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/edit_cache.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/rebuild_cache.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/libraries/glfw/CMakeFiles/edit_cache.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/libraries/glfw/CMakeFiles/rebuild_cache.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/libraries/glfw/src/CMakeFiles/glfw.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/libraries/glfw/src/CMakeFiles/edit_cache.dir
+/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/libraries/glfw/src/CMakeFiles/rebuild_cache.dir
