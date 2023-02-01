@@ -14,8 +14,24 @@ public:
     unsigned int VBO, EBO, VAO;
     unsigned int n_triangles;
 
-    Player(std::vector<float>& vertices, std::vector<unsigned int>& indices)
+    Player(float playerWidth, float playerHeight)
     {
+        float pos[] = {
+            playerWidth, 0.0f, 0.0f,
+            0.0f, playerHeight, 0.0f,
+            0.0f, 0.0f, 0.0f,
+            playerWidth, playerHeight, 0.0f,
+        };
+
+        std::vector<float> vertices;
+        vertices.insert(vertices.end(), pos, pos+sizeof(pos)/sizeof(float));
+        unsigned int ind[] = {
+            0, 1, 2,
+            0, 1, 3
+        };
+        std::vector<unsigned int> indices;
+        indices.insert(indices.end(), ind, ind+sizeof(ind)/sizeof(int));
+
         n_triangles = indices.size()/3;
 
         // create VAO

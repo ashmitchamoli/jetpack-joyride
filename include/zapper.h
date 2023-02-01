@@ -7,26 +7,25 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <bits/stdc++.h>
+#include <globals.h>
 
 class Zapper
 {
 public:
     unsigned int VBO, EBO, VAO;
-    float thiccness = 0.01f;
-    float semiLength;
-    float angular_velocity = 10.0f;
+    float thiccness = ZapperThiccness;
+    float semiLength = ZapperLength / 2;
+    float angular_velocity = ZapAngularVelocity;
     float angle;
     glm::vec3 pos = glm::vec3(0.0f, 0.0f, 0.0f);
     glm::mat4 model = glm::mat4(1.0f);
 
     unsigned int n_triangles;
 
-    Zapper(float theta, float length, float x_, float angularVel)
+    Zapper(float theta, float x_)
     {
-        angular_velocity = angularVel;
         angle = theta;
-        length = length/2;
-        semiLength = length;
+        float length = semiLength;
         pos.x = x_;
         std::vector<unsigned int> indices;
         std::vector<float> vertices;

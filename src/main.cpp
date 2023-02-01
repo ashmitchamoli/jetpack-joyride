@@ -4,7 +4,6 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-#include <ft2build.h>
 
 #include <shader.h>
 #include <mesh.h>
@@ -12,7 +11,11 @@
 #include <player.h>
 #include <coin.h>
 #include <globals.h>
+#include <hud.h>
+
+// c++ headers
 #include <bits/stdc++.h>
+
 
 struct zapperInfo
 {
@@ -56,8 +59,10 @@ bool checkCollisionCoin(Coin &coin);
 void generateLevel0();
 void generateLevel1();
 void generateLevel2();
+void DisplayGameOver(GLFWwindow *window, Shader& hudShader);
+void DisplayGameWon(GLFWwindow *window, Shader& hudShader);
 
-glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f,  2.0f);
+glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f,  0.0f);
 glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp    = glm::vec3(0.0f, 1.0f,  0.0f);
 
@@ -69,13 +74,14 @@ float playerWidth = 0.1f;
 float gravity = -2.0f;
 float netUpThrust = 3.0f;
 float playerVelocity = 0.0f;
-float upLimit = 0.7;
+float upLimit = 1.0;
 float downLimit = -0.5f;
 float playerX = -0.7f;
 float playerDisp = playerX;
 float playerSpeedX = 0.3f;
 float zapperSpawnLimitUp = upLimit - MAX_ZAPPER_LENGTH/2;
 float zapperSpawnLimitDown = downLimit + MAX_ZAPPER_LENGTH/2;
+float distance = 0.0f;
 int score = 0;
 int coinPoints = 1;
 int specialCoinPoints = 10;
@@ -115,6 +121,9 @@ int main(int argc, char** argv)
     framebuffer_size_callback(window, SCR_WIDTH, SCR_HEIGHT);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     
+    initFT();
+
+
     const char* vertexPath = "../src/vertex.shader";
     const char* fragmentPath = "../src/fragment.shader";
     Shader shader = Shader(vertexPath, fragmentPath);
@@ -127,32 +136,19 @@ int main(int argc, char** argv)
     const char* CfragmentPath = "../src/coinfragment.shader";
     Shader Cshader = Shader(CvertexPath, CfragmentPath);
     
-    float pos[] = {
-        playerWidth, 0.0f, 0.0f,
-        0.0f, playerHeight, 0.0f,
-        0.0f, 0.0f, 0.0f,
-        playerWidth, playerHeight, 0.0f,
-    };
+    const char* hudVertexPath = "../src/hud.vs";
+    const char* hudFragmentPath = "../src/hud.fs";
+    Shader hudShader = Shader(hudVertexPath, hudFragmentPath);
+    
+    Player player = Player(playerWidth, playerHeight);
 
-    std::vector<float> Pvertices;
-    Pvertices.insert(Pvertices.end(), pos, pos+sizeof(pos)/sizeof(float));
-    unsigned int ind[] = {
-        0, 1, 2,
-        0, 1, 3
-    };
-    std::vector<unsigned int> Pindices;
-    Pindices.insert(Pindices.end(), ind, ind+sizeof(ind)/sizeof(int));
-    Player player = Player(Pvertices, Pindices);
-
-    Zapper zapMesh = Zapper(30.0f, 0.35f, 0.3f, 100.0f);
+    Zapper zapMesh = Zapper(0.0f, 0.3f);
     
     Coin coin = Coin(0.0f, 0.0f);
-    
-    glEnable(GL_DEPTH_TEST);
 
     glm::mat4 projection = glm::mat4(1.0f); 
-    projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
-    
+    projection = glm::ortho(-2.0f, 2.0f, -1.125f, 1.125f);
+
     glm::mat4 view = glm::mat4(1.0f);
     view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
     
@@ -168,15 +164,31 @@ int main(int argc, char** argv)
     Cshader.setMat4("projection", projection);
     Cshader.setMat4("view", view);
     
+    hudShader.use();
+    hudShader.setMat4("projection", projection);
+    hudShader.setMat4("view", view);
+    
+    glEnable(GL_DEPTH_TEST);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    // glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+
     // render loop
     lastFrame = glfwGetTime();
     while(!glfwWindowShouldClose(window))
     {
+        if(currentLevel > 2)
+        {
+            DisplayGameWon(window, hudShader);
+        }
         if(playerDisp >= Levels[currentLevel].levelLength + 0.5f)
         {
             loadLevel(++currentLevel, zapMesh);
             playerDisp = playerX;
+            distance = 0.0f;
         }
+        distance += playerSpeedX * deltaTime;
         playerDisp += playerSpeedX * deltaTime;
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
@@ -236,7 +248,7 @@ int main(int argc, char** argv)
             // handle collision
             if(checkCollision(zapMesh))
             {
-                glfwSetWindowShouldClose(window, true);
+                DisplayGameOver(window, hudShader);
             }
 
         }
@@ -257,6 +269,11 @@ int main(int argc, char** argv)
                 score++;
             }
         }
+        RenderText(hudShader, "Level: " + std::to_string(currentLevel + 1), 1.6f, 1.0f, 0.0005f, glm::vec3(1.0f, 1.0f, 1.0f));
+        RenderText(hudShader, "Score: " + std::to_string(score), -1.95f, 1.0f, 0.0005f, glm::vec3(1.0f, 1.0f, 1.0f));
+        RenderText(hudShader, "Distance: " + std::to_string((int)(10*distance)) +
+                              "m/" + std::to_string((int)(10*(Levels[currentLevel].levelLength+0.5f-playerX))) + 
+                              "m",  -1.95f, 0.9f, 0.0005f, glm::vec3(1.0f, 1.0f, 1.0f));
 
         glfwSwapBuffers(window);
         glfwPollEvents();
@@ -338,7 +355,7 @@ void loadLevel(int levelNum, Zapper &zap)
     currentLevel = levelNum;
     if(levelNum == 2)
     {
-        zap.angular_velocity *= 3.0f;
+        ZapAngularVelocity *= 3.0f;
     }
 }
 
@@ -465,5 +482,41 @@ void generateLevel2()
     {
         Levels[2].coins[i].toRender = true;
         Levels[2].coins[i].pos = glm::vec3(((float) std::rand() / RAND_MAX) * (lc) + i*(lc), ((float)std::rand() / RAND_MAX) * (upLimit - downLimit - 2*CoinRadius) + downLimit + CoinRadius, 0.0f); 
+    }
+}
+
+void DisplayGameOver(GLFWwindow *window, Shader& hudShader)
+{
+    while(!glfwWindowShouldClose(window))
+    {
+        processInput(window); 
+
+        // rendering commands here
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        
+        RenderText(hudShader, "Game Over", -1.1f, 0.2f, 0.002f, glm::vec3(1.0f, 0.1f, 0.0f));
+        RenderText(hudShader, "Press Esc to Exit", -0.4f, 0.0f, 0.0005f, glm::vec3(1.0f, 1.0f, 1.0f));
+
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+    }
+}
+
+void DisplayGameWon(GLFWwindow *window, Shader& hudShader)
+{
+    while(!glfwWindowShouldClose(window))
+    {
+        processInput(window); 
+
+        // rendering commands here
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        
+        RenderText(hudShader, "You Won!!", -0.95f, 0.2f, 0.002f, glm::vec3(0.0f, 1.0f, 0.1f));
+        RenderText(hudShader, "Press Esc to Exit", -0.4f, 0.0f, 0.0005f, glm::vec3(1.0f, 1.0f, 1.0f));
+
+        glfwSwapBuffers(window);
+        glfwPollEvents();
     }
 }

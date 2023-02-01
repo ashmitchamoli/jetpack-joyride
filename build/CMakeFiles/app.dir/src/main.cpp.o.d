@@ -447,11 +447,26 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/libraries/glm/glm/gtc/../gtc/quaternion.inl \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/libraries/glm/glm/gtc/../gtc/quaternion_simd.inl \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/libraries/glm/glm/gtc/type_ptr.inl \
- /usr/include/freetype2/ft2build.h \
- /usr/include/freetype2/freetype/config/ftheader.h \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/shader.h \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/mesh.h \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/zapper.h \
+ /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/globals.h \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/player.h \
  /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/coin.h \
- /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/globals.h
+ /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/hud.h \
+ /usr/include/freetype2/ft2build.h \
+ /usr/include/freetype2/freetype/config/ftheader.h \
+ /usr/include/freetype2/freetype/freetype.h \
+ /usr/include/freetype2/freetype/config/ftconfig.h \
+ /usr/include/freetype2/freetype/config/ftconfig-64.h \
+ /usr/include/freetype2/freetype/config/ftoption.h \
+ /usr/include/freetype2/freetype/config/ftstdlib.h \
+ /usr/include/freetype2/freetype/config/integer-types.h \
+ /usr/include/freetype2/freetype/config/public-macros.h \
+ /usr/include/freetype2/freetype/config/mac-support.h \
+ /usr/include/freetype2/freetype/fttypes.h \
+ /usr/include/freetype2/freetype/ftsystem.h \
+ /usr/include/freetype2/freetype/ftimage.h \
+ /usr/include/freetype2/freetype/fterrors.h \
+ /usr/include/freetype2/freetype/ftmoderr.h \
+ /usr/include/freetype2/freetype/fterrdef.h
