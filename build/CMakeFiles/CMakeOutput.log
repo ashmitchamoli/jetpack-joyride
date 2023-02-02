@@ -26,12 +26,12 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is GNU, found in "/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/3.25.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-vJ0JbA
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-57Ie1Y
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0419c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0419c.dir/build.make CMakeFiles/cmTC_0419c.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-vJ0JbA'
-Building C object CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b503/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b503.dir/build.make CMakeFiles/cmTC_3b503.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-57Ie1Y'
+Building C object CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -41,8 +41,8 @@ Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortra
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0419c.dir/'
- /usr/libexec/gcc/x86_64-redhat-linux/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0419c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccdUfN68.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b503.dir/'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3b503.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccstC3RR.s
 GNU C17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
 	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -60,15 +60,15 @@ GNU C17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: e7cfb398591188071efa3be810fe2962
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0419c.dir/'
- as -v --64 -o CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o /tmp/ccdUfN68.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b503.dir/'
+ as -v --64 -o CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o /tmp/ccstC3RR.s
 GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_0419c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0419c.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o -o cmTC_0419c 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_3b503
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b503.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o -o cmTC_3b503 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper
@@ -81,10 +81,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0419c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0419c.'
- /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKu7q3e.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0419c /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0419c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0419c.'
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-vJ0JbA'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3b503' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3b503.'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKngzWq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3b503 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3b503' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3b503.'
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-57Ie1Y'
 
 
 
@@ -103,12 +103,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-vJ0JbA]
+  ignore line: [Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-57Ie1Y]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0419c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0419c.dir/build.make CMakeFiles/cmTC_0419c.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-vJ0JbA']
-  ignore line: [Building C object CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b503/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b503.dir/build.make CMakeFiles/cmTC_3b503.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-57Ie1Y']
+  ignore line: [Building C object CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -118,8 +118,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0419c.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0419c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccdUfN68.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b503.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3b503.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccstC3RR.s]
   ignore line: [GNU C17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -137,15 +137,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: e7cfb398591188071efa3be810fe2962]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0419c.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o /tmp/ccdUfN68.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b503.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o /tmp/ccstC3RR.s]
   ignore line: [GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_0419c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0419c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o -o cmTC_0419c ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_3b503]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b503.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o -o cmTC_3b503 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper]
@@ -158,13 +158,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0419c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0419c.']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKu7q3e.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0419c /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3b503' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3b503.']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKngzWq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3b503 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/12/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccKu7q3e.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKngzWq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -180,7 +180,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0419c] ==> ignore
+    arg [cmTC_3b503] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o]
@@ -189,7 +189,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/12/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../..]
-    arg [CMakeFiles/cmTC_0419c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_3b503.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -218,12 +218,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-dDkoKf
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-B0rJBa
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b4411/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4411.dir/build.make CMakeFiles/cmTC_b4411.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-dDkoKf'
-Building CXX object CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53357/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53357.dir/build.make CMakeFiles/cmTC_53357.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-B0rJBa'
+Building CXX object CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -233,8 +233,8 @@ Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortra
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b4411.dir/'
- /usr/libexec/gcc/x86_64-redhat-linux/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b4411.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccxFlS7m.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53357.dir/'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_53357.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccwhkHqp.s
 GNU C++17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
 	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -255,15 +255,15 @@ GNU C++17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: b80dcb4218100c8bed4b8384479def9a
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b4411.dir/'
- as -v --64 -o CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxFlS7m.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53357.dir/'
+ as -v --64 -o CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwhkHqp.s
 GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_b4411
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4411.dir/link.txt --verbose=1
-/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b4411 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_53357
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53357.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_53357 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper
@@ -276,10 +276,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b4411' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b4411.'
- /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSr6862.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b4411 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b4411' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b4411.'
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-dDkoKf'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_53357' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_53357.'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPpFT8s.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_53357 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_53357' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_53357.'
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-B0rJBa'
 
 
 
@@ -304,12 +304,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-dDkoKf]
+  ignore line: [Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-B0rJBa]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b4411/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4411.dir/build.make CMakeFiles/cmTC_b4411.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-dDkoKf']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53357/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53357.dir/build.make CMakeFiles/cmTC_53357.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-B0rJBa']
+  ignore line: [Building CXX object CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -319,8 +319,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b4411.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b4411.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccxFlS7m.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53357.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_53357.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccwhkHqp.s]
   ignore line: [GNU C++17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -341,15 +341,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: b80dcb4218100c8bed4b8384479def9a]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b4411.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxFlS7m.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53357.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwhkHqp.s]
   ignore line: [GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_b4411]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4411.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b4411 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_53357]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53357.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_53357 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper]
@@ -362,13 +362,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b4411' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b4411.']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSr6862.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b4411 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_53357' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_53357.']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPpFT8s.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_53357 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/12/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccSr6862.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPpFT8s.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -384,7 +384,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b4411] ==> ignore
+    arg [cmTC_53357] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o]
     arg [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o]
@@ -393,7 +393,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/12/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../..]
-    arg [CMakeFiles/cmTC_b4411.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_53357.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -418,16 +418,16 @@ Parsed CXX implicit link information from above output:
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fJRtB7
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sQmP9y
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7db0b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7db0b.dir/build.make CMakeFiles/cmTC_7db0b.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fJRtB7'
-Building C object CMakeFiles/cmTC_7db0b.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7db0b.dir/src.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fJRtB7/src.c
-Linking C executable cmTC_7db0b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7db0b.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_7db0b.dir/src.c.o -o cmTC_7db0b 
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fJRtB7'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23c8f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23c8f.dir/build.make CMakeFiles/cmTC_23c8f.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sQmP9y'
+Building C object CMakeFiles/cmTC_23c8f.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_23c8f.dir/src.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sQmP9y/src.c
+Linking C executable cmTC_23c8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23c8f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_23c8f.dir/src.c.o -o cmTC_23c8f 
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sQmP9y'
 
 
 Source file was:
@@ -453,86 +453,86 @@ int main(void)
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-6yCOcN
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-tJaacw
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8e959/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8e959.dir/build.make CMakeFiles/cmTC_8e959.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-6yCOcN'
-Building C object CMakeFiles/cmTC_8e959.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_8e959.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-6yCOcN/CheckFunctionExists.c
-Linking C executable cmTC_8e959
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e959.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_8e959.dir/CheckFunctionExists.c.o -o cmTC_8e959  /usr/lib64/libX11.so /usr/lib64/libXext.so 
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-6yCOcN'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c618/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c618.dir/build.make CMakeFiles/cmTC_2c618.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-tJaacw'
+Building C object CMakeFiles/cmTC_2c618.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_2c618.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-tJaacw/CheckFunctionExists.c
+Linking C executable cmTC_2c618
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c618.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_2c618.dir/CheckFunctionExists.c.o -o cmTC_2c618  /usr/lib64/libX11.so /usr/lib64/libXext.so 
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-tJaacw'
 
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-h8bOqD
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-1AIla2
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54396/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54396.dir/build.make CMakeFiles/cmTC_54396.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-h8bOqD'
-Building C object CMakeFiles/cmTC_54396.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_54396.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-h8bOqD/CheckFunctionExists.c
-Linking C executable cmTC_54396
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54396.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_54396.dir/CheckFunctionExists.c.o -o cmTC_54396 
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-h8bOqD'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5939b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5939b.dir/build.make CMakeFiles/cmTC_5939b.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-1AIla2'
+Building C object CMakeFiles/cmTC_5939b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_5939b.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-1AIla2/CheckFunctionExists.c
+Linking C executable cmTC_5939b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5939b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_5939b.dir/CheckFunctionExists.c.o -o cmTC_5939b 
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-1AIla2'
 
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-SSAj6N
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-oCNr0t
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92468/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92468.dir/build.make CMakeFiles/cmTC_92468.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-SSAj6N'
-Building C object CMakeFiles/cmTC_92468.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_92468.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-SSAj6N/CheckFunctionExists.c
-Linking C executable cmTC_92468
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92468.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_92468.dir/CheckFunctionExists.c.o -o cmTC_92468 
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-SSAj6N'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fdb42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fdb42.dir/build.make CMakeFiles/cmTC_fdb42.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-oCNr0t'
+Building C object CMakeFiles/cmTC_fdb42.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_fdb42.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-oCNr0t/CheckFunctionExists.c
+Linking C executable cmTC_fdb42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdb42.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_fdb42.dir/CheckFunctionExists.c.o -o cmTC_fdb42 
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-oCNr0t'
 
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-YojgLC
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fcj9sD
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6994/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6994.dir/build.make CMakeFiles/cmTC_b6994.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-YojgLC'
-Building C object CMakeFiles/cmTC_b6994.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_b6994.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-YojgLC/CheckFunctionExists.c
-Linking C executable cmTC_b6994
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6994.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_b6994.dir/CheckFunctionExists.c.o -o cmTC_b6994 
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-YojgLC'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c476/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c476.dir/build.make CMakeFiles/cmTC_3c476.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fcj9sD'
+Building C object CMakeFiles/cmTC_3c476.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_3c476.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fcj9sD/CheckFunctionExists.c
+Linking C executable cmTC_3c476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c476.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_3c476.dir/CheckFunctionExists.c.o -o cmTC_3c476 
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-fcj9sD'
 
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sixKh1
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-TnpiQG
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30dba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30dba.dir/build.make CMakeFiles/cmTC_30dba.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sixKh1'
-Building C object CMakeFiles/cmTC_30dba.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_30dba.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sixKh1/CheckFunctionExists.c
-Linking C executable cmTC_30dba
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30dba.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_30dba.dir/CheckFunctionExists.c.o -o cmTC_30dba 
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-sixKh1'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_840db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_840db.dir/build.make CMakeFiles/cmTC_840db.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-TnpiQG'
+Building C object CMakeFiles/cmTC_840db.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_840db.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-TnpiQG/CheckFunctionExists.c
+Linking C executable cmTC_840db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_840db.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_840db.dir/CheckFunctionExists.c.o -o cmTC_840db 
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-TnpiQG'
 
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-PXd5lH
+Change Dir: /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-lPYWL7
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d29b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d29b1.dir/build.make CMakeFiles/cmTC_d29b1.dir/build
-gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-PXd5lH'
-Building C object CMakeFiles/cmTC_d29b1.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_d29b1.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-PXd5lH/CheckFunctionExists.c
-Linking C executable cmTC_d29b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d29b1.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_d29b1.dir/CheckFunctionExists.c.o -o cmTC_d29b1  -lICE 
-gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-PXd5lH'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89159/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89159.dir/build.make CMakeFiles/cmTC_89159.dir/build
+gmake[1]: Entering directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-lPYWL7'
+Building C object CMakeFiles/cmTC_89159.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_89159.dir/CheckFunctionExists.c.o -c /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-lPYWL7/CheckFunctionExists.c
+Linking C executable cmTC_89159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89159.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_89159.dir/CheckFunctionExists.c.o -o cmTC_89159  -lICE 
+gmake[1]: Leaving directory '/home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/build/CMakeFiles/CMakeScratch/TryCompile-lPYWL7'
 
 
 

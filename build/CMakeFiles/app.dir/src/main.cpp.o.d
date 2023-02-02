@@ -469,4 +469,7 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /usr/include/freetype2/freetype/ftimage.h \
  /usr/include/freetype2/freetype/fterrors.h \
  /usr/include/freetype2/freetype/ftmoderr.h \
- /usr/include/freetype2/freetype/fterrdef.h
+ /usr/include/freetype2/freetype/fterrdef.h \
+ /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/background.h \
+ /home/ashmitchamoli/Desktop/IIITH/II-II/CG/jetpack-joyride/include/stb_image.h \
+ /usr/include/c++/12/math.h
